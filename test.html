@@ -7,6 +7,72 @@
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
+    <!-- header ここから -->
+    <header>
+        <h1>TNG CAFE</h1>
+        <p>心安らぐ一杯をあなたに</p>
+    </header>
 
+    <!-- ナビケーション -->
+    <nav>
+        <ul>
+            <li><a href="#section1">About Us</a></li>
+            <li><a href="#section2">Menu</a></li>
+            <li><a href="#section3">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- main ここから -->
+    <main>
+        <!-- section1_About Us ここから -->
+        <section id="section1">
+            <h2>About Us</h2>
+            <p>
+                TNGCafeは自然の香りに包まれたリラックス空間を提供しています。<br>
+                自家焙煎コーヒーと手作りスイーツで、穏やかな時間をお過ごしください。
+            </p>
+            <img src="cafe.jpg" alt="カフェの写真">
+        </section>
+
+        <!-- section2_Menu ここから -->
+        <section id="section2">
+            <h2>Menu</h2>
+
+            <img src="coffee.jpg" alt="コーヒー">
+            <p>ブレンドコーヒー</p>
+
+            <img src="bakedCheesecake.jpg" alt="ケーキ">
+            <p>ベイクドチーズケーキ</p>
+
+            <img src="latte.jpg" alt="ラテ">
+            <p>カフェラテ</p>
+        </section>
+
+        <!-- section3_Contact ここから -->
+        <section id="section3">
+            <h2>Contact</h2>
+
+            <!-- フォームここから -->
+            <form action="#" method="post">
+                <!-- 名前入力欄 -->
+                <label for="name">お名前：</label>
+                <input type="text" name="name" id="name">
+
+                <!-- メールアドレス入力欄 -->
+                <label for="email">メールアドレス：</label>
+                <input type="email" name="email" id="email">
+
+                <!-- お問い合わせ内容入力欄 -->
+                <label for="message">お問い合わせ内容</label>
+                <textarea name="message" id="message"></textarea>
+                
+            </form>
+        </section>
+
+    </main>
+    <!-- footer ここから -->
+    <footer>
+        <p>&copy; 20○○ TNG Cafe</p>
+    </footer>
 </body>
 </html>
