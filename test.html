@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TNG CAFE</title>
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
@@ -11,17 +11,17 @@
     <header>
         <h1>TNG CAFE</h1>
         <p>心安らぐ一杯をあなたに</p>
+        
+        <!-- ナビケーション -->
+        <nav>
+            <ul>
+                <li><a href="#section1">About Us</a></li>
+                <li><a href="#section2">Menu</a></li>
+                <li><a href="#section3">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- ナビケーション -->
-    <nav>
-        <ul>
-            <li><a href="#section1">About Us</a></li>
-            <li><a href="#section2">Menu</a></li>
-            <li><a href="#section3">Contact</a></li>
-        </ul>
-    </nav>
-
+        
     <!-- main ここから -->
     <main>
         <!-- section1_About Us ここから -->
@@ -37,15 +37,21 @@
         <!-- section2_Menu ここから -->
         <section id="section2">
             <h2>Menu</h2>
-
-            <img src="coffee.jpg" alt="コーヒー">
-            <p>ブレンドコーヒー</p>
-
-            <img src="bakedCheesecake.jpg" alt="ケーキ">
-            <p>ベイクドチーズケーキ</p>
-
-            <img src="latte.jpg" alt="ラテ">
-            <p>カフェラテ</p>
+            <div class="menu-list">
+                <div class="menu-card">
+                    <img src="coffee.jpg" alt="コーヒー">
+                    <p>ブレンドコーヒー</p>
+                </div>
+                <div class="menu-card">
+                    <img src="bakedCheesecake.jpg" alt="ケーキ">
+                    <p>ベイクドチーズケーキ</p>
+                </div>
+                <div class="menu-card">
+                    <img src="latte.jpg" alt="ラテ">
+                    <p>カフェラテ</p>
+                </div>
+            </div>
+                
         </section>
 
         <!-- section3_Contact ここから -->
@@ -66,6 +72,7 @@
                 <label for="message">お問い合わせ内容</label>
                 <textarea name="message" id="message"></textarea>
                 
+                <button type="submit">送信</button>
             </form>
         </section>
 

@@ -1,0 +1,156 @@
+/* ページ全体の基本設定 */
+body {
+    font-family: "Yu Gothic", "Helvetica", "sans-serif";
+    background-color: #faf8f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+/* ヘッダーの設定 */
+header {
+    background-color: #3C6E48;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header > h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+header p {
+    margin-bottom: 15px;
+    color: #EEEEEE;
+    font-size: 14px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 45px;
+    padding-left: 0;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #FFF0C2;
+    font-weight: bold;
+}
+
+/* sectionの設定 */
+section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+section h2 {
+    display: inline-block;
+    border-bottom: 2px solid #BBD3B7;
+    padding-bottom: 5px;
+    color: #508576;
+}
+
+section p {
+    color: #686A89;
+}
+.menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-card {
+    background-color: white;
+    width: 200px;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* フォームの設定 */
+#section3 form {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#section3 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#section3 input,
+#section3 textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#section3 input,
+#section3 textarea,
+#section3 button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#section3 button {
+    background-color: #3C6E48;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#section3 button:hover {
+    background-color: #2D5437;
+}
+
+/* フッターの設定 */
+footer {
+    background-color: #3C6E48;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
